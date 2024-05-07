@@ -1,0 +1,180 @@
+@document domain("wolvden.com") {
+    #main, .main {
+        background: rgba(0, 0, 0, 0.4) !important;
+    }
+
+    body {
+        background: url(https://images2.imgbox.com/b4/11/fuZXOQ9a_o.png) fixed !important;
+        background-size: 100% !important;
+        background-color: rgba(0, 0, 0, 0.4) !important;
+        color: #837142 !important;
+        font-family: Garamond, serif !important;
+    }
+
+    h1, h2, h3 {
+        color: #837142 !important;
+        font-family: Garamond, serif !important;
+    }
+
+    a:link, a:visited {
+        color: #7A8766 !important;
+    }
+
+    a:hover, a:active {
+        color: #837142 !important;
+        transition: all ease 2s;
+    }
+
+    /* Nav */
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+        color: #7A8766 !important;
+        background: black !important;
+    }
+
+    .breadcrumb-nav {
+        background: rgba(0, 0, 0, 0.6) !important;
+        color: #7A8766 !important;
+    }
+
+    /* Sidebar */
+    #sidebar, .index .sidebar {
+        background: rgba(0, 0, 0, 0.4) !important;
+        color: #7A8766 !important;
+    }
+
+    #sidebar .card {
+        border-bottom: none !important;
+    }
+
+    /* Main Tables */
+    .table td {
+        background: rgba(0, 0, 0, 0.6) !important;
+        color: #837142 !important;
+    }
+
+    .table .subheader, .pup {
+        background: #837142 !important;
+        color: black !important;
+    }
+
+    /* Other */
+    .card {
+        color: #7A8766 !important;
+        background: rgba(0, 0, 0, 0.4) !important;
+    }
+
+    .btn, .btn-info {
+        background:rgba(0, 0, 0, 0.4) !important;
+        color: #837142 !important;
+        border: 1px solid black !important;
+        transition: all ease 1s;
+    }
+
+    .btn:hover, .btn-info:hover {
+        background: #7A8766 !important;
+        color: black !important;
+    }
+
+    .form-control {
+        background: rgba(0, 0, 0, 0.6) !important;
+        color: #7A8766 !important;
+        border: none !important;
+        transition: all ease 1s;
+    }
+
+    .form-control:focus {
+        background: rgba(0, 0, 0, 0.4) !important;
+        color: #7A8766 !important;
+    }
+
+    .note-editor.note-airframe .note-editing-area .note-editable, .note-editor.note-frame .note-editing-area .note-editable {
+        background: rgba(0, 0, 0, 0.6) !important;
+        color: #7A8766 !important;
+        border: 1px solid black !important;
+        transition: all ease 1s;
+    }
+
+    #header .navbar-status {
+        background: rgba(0, 0, 0, 0.6) !important;
+        color: #837142 !important;
+        border: none !important;
+    }
+
+    /* Chat Bar */
+    .s-chat-message:nth-child(even) {
+        background: rgba(0, 0, 0, 0.6) !important;
+        color: #7A8766 !important;
+    }
+
+    .s-chat-message:nth-child(odd) {
+        background: rgba(0, 0, 0, 0.6) !important;
+        color: #7A8766 !important;
+    }
+
+    #fra_chatContainer #txtChatInput {
+        background: rgba(0, 0, 0, 0.6) !important;
+        color: #837142 !important;
+        border: 1px solid black !important;
+        transition: all ease 1s;
+        border-radius: 15px;
+    }
+
+    .s-chat-sidebar#label_currentChannel {
+        background: rgba(0, 0, 0, 0.4) !important;
+        color: black !important;
+        border: 1px solid black !important;
+        transition: all ease 1s;
+    }
+
+    .progress {
+        background: rgba(0, 0, 0, 0.6) !important;
+        border: solid 1px black !important;
+    }
+
+    /* Alerts */
+    .alert-info, .alert-success {
+        background: rgba(0, 0, 0, 0.6) !important;
+        color: #AEAE7D !important;
+        border: 1px solid #7A8766 !important;
+        border-radius: 10px !important;
+    }
+
+    /* Table Headers */
+    th, th.top {
+        background: rgba(0, 0, 0, 0.6) !important;
+        color: #837142 !important;
+    }
+
+    /* Pagination */
+    .page-link {
+        background: #7A8766 !important;
+        border-color: black !important;
+    }
+
+    .page-item.active .page-link {
+        background: rgba(0, 0, 0, 0.6) !important;
+        border-color: black !important;
+    }
+
+    /* Footer and Header */
+    #header .navbar-main, #footer {
+        background: rgba(0, 0, 0, 0.6) !important;
+        color: #7A8766 !important;
+    }
+
+    /* Hoard Items */
+    .hoard .item-foot, .hoard .item-head {
+        background: #837142 !important;
+    }
+
+    .hoard .item {
+        background: #7A8766 !important;
+        border: none !important;
+    }
+
+    /* Pinned Chat Messages */
+    #chatMessagePinned.s-chat-message__pinned {
+        background: #000 !important;
+        color: #7A8766 !important;
+    }
+}
